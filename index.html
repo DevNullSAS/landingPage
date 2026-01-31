@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevNull SAS | Tecnología que vende, seguridad que respalda</title>
+    <meta name="description" content="Soluciones tecnológicas integrales: Fábrica de software, Ciberseguridad, Marketing Digital y Consultoría TIC.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        devRed: '#810015',
+                        devDarkRed: '#5f0015',
+                        devDark: '#333333',
+                        devWhite: '#ffffff',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(51, 51, 51, 0.7), rgba(95, 0, 21, 0.8)), url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-devDark">
+
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur shadow-md transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <img class="h-40 w-auto" src="Logo.png" alt="DevNull SAS Logo">
+                </div>
+                
+                <div class="hidden md:flex space-x-8">
+                    <a href="#software" class="text-devDark hover:text-devRed font-medium transition">Fábrica Software</a>
+                    <a href="#consultoria" class="text-devDark hover:text-devRed font-medium transition">Consultoría TIC</a>
+                    <a href="#marketing" class="text-devDark hover:text-devRed font-medium transition">Marketing Digital</a>
+                    <a href="#ciberseguridad" class="text-devDark hover:text-devRed font-medium transition">Ciberseguridad</a>
+                </div>
+
+                <div class="hidden md:flex">
+                    <a href="#contacto" class="bg-devRed hover:bg-devDarkRed text-white px-5 py-2 rounded-full font-semibold transition shadow-lg hover:shadow-xl">
+                        Contáctanos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-bg h-screen flex items-center justify-center text-center px-4 relative">
+        <div class="max-w-4xl mx-auto text-white z-10 mt-16">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+                Tecnología que <span class="text-red-400">vende</span>,<br> 
+                Seguridad que <span class="text-red-400">respalda</span>.
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 text-gray-200 font-light">
+                Impulsamos tu negocio en el entorno digital con soluciones robustas, escalables y seguras.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#software" class="bg-devRed hover:bg-devDarkRed text-white px-8 py-4 rounded-lg font-bold text-lg transition shadow-lg transform hover:-translate-y-1">
+                    Explorar Servicios
+                </a>
+                <a href="#contacto" class="bg-transparent border-2 border-white hover:bg-white hover:text-devRed text-white px-8 py-4 rounded-lg font-bold text-lg transition">
+                    Agendar Cita
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-devRed font-bold tracking-wide uppercase text-sm mb-2">Nuestras Especialidades</h2>
+            <h3 class="text-4xl font-bold text-devDark mb-12">Soluciones 360° para tu empresa</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <a href="#software" class="p-6 bg-gray-50 rounded-xl hover:shadow-xl transition border border-gray-100 group">
+                    <div class="w-14 h-14 bg-devRed/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-devRed transition">
+                        <i class="ph ph-code text-3xl text-devRed group-hover:text-white"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2">Desarrollo</h4>
+                </a>
+                <a href="#consultoria" class="p-6 bg-gray-50 rounded-xl hover:shadow-xl transition border border-gray-100 group">
+                    <div class="w-14 h-14 bg-devRed/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-devRed transition">
+                        <i class="ph ph-strategy text-3xl text-devRed group-hover:text-white"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2">Consultoría</h4>
+                </a>
+                <a href="#marketing" class="p-6 bg-gray-50 rounded-xl hover:shadow-xl transition border border-gray-100 group">
+                    <div class="w-14 h-14 bg-devRed/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-devRed transition">
+                        <i class="ph ph-megaphone text-3xl text-devRed group-hover:text-white"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2">Marketing</h4>
+                </a>
+                <a href="#ciberseguridad" class="p-6 bg-gray-50 rounded-xl hover:shadow-xl transition border border-gray-100 group">
+                    <div class="w-14 h-14 bg-devRed/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-devRed transition">
+                        <i class="ph ph-shield-check text-3xl text-devRed group-hover:text-white"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2">Seguridad</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="software" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="order-2 md:order-1">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Coding" class="rounded-2xl shadow-2xl">
+            </div>
+            <div class="order-1 md:order-2">
+                <div class="inline-block bg-devRed text-white px-3 py-1 rounded-full text-xs font-bold mb-4">INGENIERÍA</div>
+                <h2 class="text-4xl font-bold mb-6 text-devDark">Fábrica de Software</h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    Transformamos procesos complejos en software intuitivo. Desde aplicaciones web y móviles hasta sistemas empresariales a la medida. Usamos metodologías ágiles para entregar valor rápidamente.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center"><i class="ph ph-check-circle text-devRed mr-2"></i> Desarrollo Web y Móvil</li>
+                    <li class="flex items-center"><i class="ph ph-check-circle text-devRed mr-2"></i> Integración de APIs</li>
+                    <li class="flex items-center"><i class="ph ph-check-circle text-devRed mr-2"></i> Arquitectura Cloud</li>
+                </ul>
+                <a href="#contacto" class="text-devRed font-bold hover:underline">Cotizar proyecto &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="consultoria" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-block bg-devDark text-white px-3 py-1 rounded-full text-xs font-bold mb-4">ESTRATEGIA</div>
+                <h2 class="text-4xl font-bold mb-6 text-devDark">Consultoría en Servicios TIC</h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    Optimizamos su infraestructura tecnológica. Analizamos su estado actual y diseñamos la hoja de ruta para la transformación digital de su organización.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center"><i class="ph ph-check-circle text-devRed mr-2"></i> Auditoría de Infraestructura</li>
+                    <li class="flex items-center"><i class="ph ph-check-circle text-devRed mr-2"></i> Optimización de Procesos IT</li>
+                    <li class="flex items-center"><i class="ph ph-check-circle text-devRed mr-2"></i> Gestión de Proyectos Tecnológicos</li>
+                </ul>
+                <a href="#contacto" class="text-devRed font-bold hover:underline">Solicitar diagnóstico &rarr;</a>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Consulting Team" class="rounded-2xl shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <section id="marketing" class="py-24 bg-devDark text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-devRed rounded-full filter blur-3xl opacity-20 -mr-20 -mt-20"></div>
+
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="order-2 md:order-1">
+                <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Marketing Analytics" class="rounded-2xl shadow-2xl border-4 border-devRed/30">
+            </div>
+            <div class="order-1 md:order-2">
+                <div class="inline-block bg-white text-devDark px-3 py-1 rounded-full text-xs font-bold mb-4">CRECIMIENTO</div>
+                <h2 class="text-4xl font-bold mb-6">Marketing Digital</h2>
+                <p class="text-lg text-gray-300 mb-6">
+                    Tecnología que vende. Usamos datos y creatividad para posicionar su marca, atraer leads calificados y aumentar sus ventas.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center"><i class="ph ph-chart-line-up text-devRed mr-2"></i> SEO y Posicionamiento</li>
+                    <li class="flex items-center"><i class="ph ph-users text-devRed mr-2"></i> Gestión de Redes Sociales</li>
+                    <li class="flex items-center"><i class="ph ph-target text-devRed mr-2"></i> Pauta Digital (Ads)</li>
+                </ul>
+                <a href="#contacto" class="text-white font-bold hover:text-devRed transition">Ver planes &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ciberseguridad" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-block bg-devRed text-white px-3 py-1 rounded-full text-xs font-bold mb-4">PROTECCIÓN</div>
+                <h2 class="text-4xl font-bold mb-6 text-devDark">Ciberseguridad</h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    Seguridad que respalda. Protegemos sus activos digitales contra amenazas modernas. Implementamos protocolos robustos para garantizar la continuidad de su negocio.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center"><i class="ph ph-shield-check text-devRed mr-2"></i> Hacking Ético y Pentesting</li>
+                    <li class="flex items-center"><i class="ph ph-lock-key text-devRed mr-2"></i> Protección de Datos</li>
+                    <li class="flex items-center"><i class="ph ph-warning-circle text-devRed mr-2"></i> Gestión de Incidentes</li>
+                </ul>
+                <a href="#contacto" class="text-devRed font-bold hover:underline">Auditar mi seguridad &rarr;</a>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Cybersecurity lock" class="rounded-2xl shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-24 bg-white border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-devDark mb-4">¿Listo para innovar?</h2>
+            <p class="text-xl text-gray-600 mb-10">Cuéntanos tu reto tecnológico. Nosotros ponemos la solución.</p>
+            
+            <div class="bg-gray-50 p-8 rounded-2xl shadow-lg border border-gray-200 text-left">
+                <form action="#" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Nombre</label>
+                            <input type="text" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-devRed focus:border-devRed outline-none" placeholder="Tu nombre">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Empresa</label>
+                            <input type="text" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-devRed focus:border-devRed outline-none" placeholder="Nombre de la empresa">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Correo Electrónico</label>
+                        <input type="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-devRed focus:border-devRed outline-none" placeholder="tu@correo.com">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Servicio de interés</label>
+                        <select class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-devRed focus:border-devRed outline-none">
+                            <option>Fábrica de Software</option>
+                            <option>Consultoría TIC</option>
+                            <option>Marketing Digital</option>
+                            <option>Ciberseguridad</option>
+                            <option>Otro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Mensaje</label>
+                        <textarea rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-devRed focus:border-devRed outline-none" placeholder="¿Cómo podemos ayudarte?"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-devRed hover:bg-devDarkRed text-white font-bold py-4 rounded-lg transition shadow-lg text-lg">
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-devDark text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-2">
+                    <img src="Logo.png" alt="DevNull" class="h-8 mb-4 brightness-0 invert"> <p class="text-gray-400 max-w-sm">
+                        Tecnología que vende, seguridad que respalda.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Servicios</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#software" class="hover:text-white transition">Software</a></li>
+                        <li><a href="#consultoria" class="hover:text-white transition">Consultoría</a></li>
+                        <li><a href="#marketing" class="hover:text-white transition">Marketing</a></li>
+                        <li><a href="#ciberseguridad" class="hover:text-white transition">Ciberseguridad</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contacto</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Bogotá, Colombia</li>
+                        <li>hola@dvnl.io</li>
+                        <li>+57 300 123 4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+                <p>&copy; 2024 DevNull SAS. Todos los derechos reservados.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-white"><i class="ph ph-linkedin-logo text-xl"></i></a>
+                    <a href="#" class="hover:text-white"><i class="ph ph-instagram-logo text-xl"></i></a>
+                    <a href="#" class="hover:text-white"><i class="ph ph-twitter-logo text-xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
